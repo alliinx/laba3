@@ -17,8 +17,8 @@ public class MainClass {
 
         System.out.println("=====GET=====");
         System.out.println("---Get elements ( 1kk )");
-        System.out.println("test delete for linkedList " + TimeTest.testGetFromCollection(linkedList));
-        System.out.println("test delete for arrayList " + TimeTest.testGetFromCollection(arrayList));
+        System.out.println("test get for linkedList " + TimeTest.testGetFromCollection(linkedList));
+        System.out.println("test get for arrayList " + TimeTest.testGetFromCollection(arrayList));
 
         if ((TimeTest.testGetFromCollection(arrayList)) <= (TimeTest.testGetFromCollection(linkedList))) System.out.println("ArrayList is faster");
         else System.out.println(("LinkedList is faster"));
@@ -26,8 +26,8 @@ public class MainClass {
 
         System.out.println("=====DELETE=====");
         System.out.println("---Delete elements ( 1kk )");
-        System.out.println("test get for linkedList " + TimeTest.testDeleteFromCollection(linkedList));
-        System.out.println("test get for arrayList " + TimeTest.testDeleteFromCollection(arrayList));
+        System.out.println("test delete for linkedList " + TimeTest.testDeleteFromCollection(linkedList));
+        System.out.println("test delete for arrayList " + TimeTest.testDeleteFromCollection(arrayList));
 
         if ((TimeTest.testDeleteFromCollection(arrayList)) <= (TimeTest.testDeleteFromCollection(linkedList))) System.out.println("ArrayList is faster");
         else System.out.println(("LinkedList is faster"));
