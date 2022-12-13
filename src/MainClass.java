@@ -13,7 +13,7 @@ public class MainClass {
         if ((TimeTest.testAddToCollection(arrayList)) <= (TimeTest.testAddToCollection(linkedList))) System.out.println("ArrayList is faster");
         else System.out.println(("LinkedList is faster"));
 
-        //замечу, что для большего количества итераций видно, что ArrayList быстрее, чем LinkedList, и это будет верно. Но для такого количества итераций очень долго прогружаются Get и Delete, всвязи с чем оставил такое//
+        //замечу, что для большего количества итераций видно, что ArrayList быстрее, чем LinkedList, и это будет верно. Но для такого количества итераций очень долго прогружаются Get и Delete//
 
         System.out.println("=====GET=====");
         System.out.println("---Get elements ( 1kk )");
